@@ -1,0 +1,52 @@
+/** Style **/
+
+body {
+    background-image: url("../images/tableau-vide.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+h1 {
+    margin: 50px 0;
+    font-family: Banyu langits, sans-serif;
+}
+
+main {
+    min-height: calc(100vh - 56px - 60px);
+}
+
+footer {
+    color: #000000;
+    background-color: #F8F9FA;
+    height: 60px;
+}
+
+footer span {
+    height: 100%;
+    font-size: 1.25rem;
+}
+
+/** Classes **/
+
+.yellow {
+    color: #fdb13c;
+}
+
+.m-bot {
+    margin-bottom: 50px;
+}
+
+/** IDs **/
+
+#select {
+    margin: 50px 0
+}
+
+/** Fonts **/
+
+@font-face {
+    font-family: 'Banyu langits';
+    src: url("../fonts/Banyu langits.otf");
+}
