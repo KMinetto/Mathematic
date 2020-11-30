@@ -21,11 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="9b9efc37-6387-4ad5-85dc-d2f8930a5e91" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/revision.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/revision.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/php/revision.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/php/revision.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/revision.html" beforeDir="false" afterPath="$PROJECT_DIR$/revision.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/table.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +51,10 @@
             <RecentBranchesForRepo>
               <option name="branches">
                 <list>
+                  <RecentBranch>
+                    <option name="branchName" value="tablesCheck" />
+                    <option name="lastUsedInstant" value="1606751341" />
+                  </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="revision" />
                     <option name="lastUsedInstant" value="1606742910" />
@@ -130,6 +130,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="519" y="0" width="588" height="860" key="#PHP" timestamp="1606515811983">
