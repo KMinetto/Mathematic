@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b9efc37-6387-4ad5-85dc-d2f8930a5e91" name="Default Changelist" comment="" />
+    <list default="true" id="9b9efc37-6387-4ad5-85dc-d2f8930a5e91" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/revision.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/revision.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/php/revision.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/php/revision.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision.html" beforeDir="false" afterPath="$PROJECT_DIR$/revision.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +48,29 @@
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="revision" />
+                    <option name="lastUsedInstant" value="1606742910" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1606517612" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
   <component name="ProjectId" id="1krpxHfUFq05vB3W6TqfSN6zpJo" />
@@ -64,12 +112,24 @@
       <option name="presentableId" value="Default" />
       <updated>1606468809640</updated>
       <workItem from="1606468811271" duration="19298000" />
-      <workItem from="1606515779642" duration="1575000" />
+      <workItem from="1606515779642" duration="1882000" />
+      <workItem from="1606742787924" duration="6401000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="519" y="0" width="588" height="860" key="#PHP" timestamp="1606515811983">
@@ -80,9 +140,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="254" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860/1600.0.1366.728@0.0.1600.860" timestamp="1606470211823" />
-    <state x="634" y="349" key="NewPhpFileDialog" timestamp="1606513614393">
+    <state x="634" y="349" key="NewPhpFileDialog" timestamp="1606747803932">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="634" y="349" key="NewPhpFileDialog/0.0.1600.860/1600.0.1366.728@0.0.1600.860" timestamp="1606513614393" />
+    <state x="634" y="349" key="NewPhpFileDialog/0.0.1600.860/1600.0.1366.728@0.0.1600.860" timestamp="1606747803932" />
   </component>
 </project>
