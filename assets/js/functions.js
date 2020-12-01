@@ -53,3 +53,23 @@ export function addOperation(operation, result) {
 
     return newTr
 }
+
+export function createHead() {
+    const thead = document.createElement('thead');
+    const trHead = document.createElement('tr');
+    const th1 = document.createElement('th');
+    const th2 = document.createElement('th');
+    thead.setAttribute("class", "thead-light");
+    th1.setAttribute("scope", "col");
+    th1.setAttribute("class", "text-center");
+    th2.setAttribute("scope", "col");
+    th2.setAttribute("class", "text-center");
+    th1.innerHTML = "Opérations";
+    th2.innerHTML = "Résultats";
+    trHead.appendChild(th1);
+    trHead.appendChild(th2);
+    thead.appendChild(trHead);
+
+    return thead;
+
+}
