@@ -16,11 +16,22 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:main" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b9efc37-6387-4ad5-85dc-d2f8930a5e91" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/tables.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/tables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/php/revision.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/php/revision.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/php/table.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/php/table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/revision.html" beforeDir="false" afterPath="$PROJECT_DIR$/revision.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/table.html" beforeDir="false" afterPath="$PROJECT_DIR$/table.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,11 +64,7 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="tablesCheck" />
-                    <option name="lastUsedInstant" value="1606751341" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="revision" />
-                    <option name="lastUsedInstant" value="1606742910" />
+                    <option name="lastUsedInstant" value="1606826243" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
@@ -114,6 +121,7 @@
       <workItem from="1606468811271" duration="19298000" />
       <workItem from="1606515779642" duration="1882000" />
       <workItem from="1606742787924" duration="6401000" />
+      <workItem from="1606820749764" duration="13072000" />
     </task>
     <servers />
   </component>
@@ -125,7 +133,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -145,5 +165,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="634" y="349" key="NewPhpFileDialog/0.0.1600.860/1600.0.1366.728@0.0.1600.860" timestamp="1606747803932" />
+    <state x="617" y="340" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606830852405">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="617" y="340" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.860/1600.0.1366.728@0.0.1600.860" timestamp="1606830852405" />
   </component>
 </project>

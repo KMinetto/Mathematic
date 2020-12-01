@@ -10,5 +10,9 @@ if (!empty($_POST)) {
         $data[$i]['result'] = (string) $result;
     }
 
-    echo json_encode($data);
+    try {
+        echo json_encode($data, JSON_THROW_ON_ERROR);
+    } catch (JsonException $e) {
+        $e->getMessage();
+    }
 }
