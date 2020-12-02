@@ -29,7 +29,7 @@ form.addEventListener('submit', (e) => {
                         const table = document.createElement('table');
                         const tbody = document.createElement('tbody');
                         table.setAttribute("class", "table mb-5");
-                        table.appendChild(createHead());
+                        table.appendChild(createHead("Opérations", "Résultats"));
                         for (let i = 1; i <= 10; i++) {
                             tbody.appendChild(addOperation(data[tables][i]['operation'], data[tables][i]['result']));
                             table.appendChild(tbody);
