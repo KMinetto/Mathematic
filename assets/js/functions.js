@@ -2,7 +2,6 @@
 
 export function getRandomInt() {
     let n = Math.floor(Math.random() * (10 + 1));
-    console.log(n);
     if (n === 0) {
         return 1;
     } else {
@@ -54,7 +53,7 @@ export function addOperation(operation, result) {
     return newTr
 }
 
-export function createHead() {
+export function createHead(th1String, th2String) {
     const thead = document.createElement('thead');
     const trHead = document.createElement('tr');
     const th1 = document.createElement('th');
@@ -64,8 +63,8 @@ export function createHead() {
     th1.setAttribute("class", "text-center");
     th2.setAttribute("scope", "col");
     th2.setAttribute("class", "text-center");
-    th1.innerHTML = "Opérations";
-    th2.innerHTML = "Résultats";
+    th1.innerHTML = th1String;
+    th2.innerHTML = th2String;
     trHead.appendChild(th1);
     trHead.appendChild(th2);
     thead.appendChild(trHead);
