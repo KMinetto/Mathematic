@@ -17,6 +17,10 @@ main {
     min-height: calc(100vh - 56px - 60px);
 }
 
+form td {
+    vertical-align: center;
+}
+
 footer {
     color: #000000;
     background-color: #F8F9FA;
