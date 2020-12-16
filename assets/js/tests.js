@@ -1,6 +1,6 @@
 /** Import **/
 
-import {addOperation, createHead, getRandomInt} from "./functions.js";
+import {getRandomInt, tableTestHead, tableTestBody} from "./functions.js";
 
 /** Récupération des Tags HTML **/
 
@@ -16,27 +16,43 @@ let hidden3 = document.getElementById('hidden3');
 let hidden4 = document.getElementById('hidden4');
 let hidden5 = document.getElementById('hidden5');
 
+const table = document.getElementById('responseTest');
+const tableDiv = document.getElementById('tableDiv');
 
-const form = document.getElementById('form');
+const forms = document.getElementsByClassName('forms');
 
 /** Algorithme **/
 
-// form.addEventListener('submit', (e) => {
-//     e.preventDefault();
-//
-//     const formData = new FormData(form)
-//
-//     fetch('assets/php/tests.php', {
-//         method: 'POST',
-//         body: formData,
-//     })
-//         .then(response => response.json())
-//         .then(data => {
-//             console.log(data);
-//
-//         })
-//         .catch(err => console.log(err));
-// });
+for (let i = 0; i < forms.length; i++) {
+    forms.item(i).addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        const formData = new FormData(forms.item(i));
+
+        fetch('assets/php/tests.php', {
+            method: 'POST',
+            body: formData,
+        })
+            .then(res => res.json())
+            .then(data => {
+                console.log(data);
+
+
+                let result
+                let verify;
+                for (const response in forms) {
+                    result = data.response;
+                }
+                if (data.response !== data.calcul) {
+                    verify = "C'est faux";
+                } else {
+                    verify = "C'est correct";
+                }
+                table.appendChild(tableTestHead("Votre réponse", "Résultat", "Réponse"));
+                table.appendChild(tableTestBody(data.response, verify, data.calcul));
+            })
+    })
+}
 
 /** tests.html **/
 
@@ -48,7 +64,6 @@ for (let i = 1; i <= 5; i++) {
     random2 = getRandomInt();
     const result = random1 * random2;
     arrayCalc.push(`${random1} x ${random2}`, result);
-    console.log(arrayCalc)
 }
  calcul1.innerHTML = arrayCalc[0];
  calcul2.innerHTML = arrayCalc[2];

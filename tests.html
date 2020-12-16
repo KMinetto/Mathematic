@@ -52,54 +52,62 @@
                                 </tr>
                             </thead>
                             <tbody>
-                            <form id="form" action="">
+                            <form class="forms" action="">
                                 <tr class="text-center text-white">
                                     <td id="calcul1"></td>
                                     <td class="w-50">
-                                        <div class="form-group d-flex justify-content-center">
-                                            <input class="form-control col-md-4" type="number" name="calcul1" id="inputCalcul1" placeholder="Votre résultat...">
-                                            <input type="hidden" name="calcul1" id="hidden1">
-                                            <button id="submit1" type="submit" class="btn btn-secondary ml-4">Choisir</button>
+                                        <div class="form-group d-lg-flex justify-content-center">
+                                            <input class="form-control col-md-4" type="number" name="response" id="inputCalcul1" placeholder="Votre résultat...">
+                                            <input type="hidden" name="calcul" id="hidden1">
+                                            <button id="submit1" type="submit" class="btn btn-secondary ml-4">Répondre</button>
                                         </div>
                                     </td>
                                 </tr>
+                            </form>
+                            <form class="forms" action="">
                                 <tr class="text-center text-white">
                                     <td id="calcul2"></td>
                                     <td class="w-50">
-                                        <div class="form-group d-flex justify-content-center">
-                                            <input class="form-control col-md-4" type="number" name="calcul2" id="inputCalcul2" placeholder="Votre résultat...">
-                                            <input type="hidden" name="calcul2" id="hidden2">
-                                            <button id="submit2" type="submit" class="btn btn-secondary ml-4">Choisir</button>
+                                        <div class="form-group d-lg-flex justify-content-center">
+                                            <input class="form-control col-md-4" type="number" name="response" id="inputCalcul2" placeholder="Votre résultat...">
+                                            <input type="hidden" name="calcul" id="hidden2">
+                                            <button id="submit2" type="submit" class="btn btn-secondary ml-4">Répondre</button>
                                         </div>
                                     </td>
                                 </tr>
+                            </form>
+                            <form class="forms" action="">
                                 <tr class="text-center text-white">
                                     <td id="calcul3"></td>
                                     <td class="w-50">
-                                        <div class="form-group d-flex justify-content-center">
-                                            <input class="form-control col-md-4" type="number" name="calcul3" id="inputCalcul3" placeholder="Votre résultat...">
-                                            <input type="hidden" name="calcul3" id="hidden3">
-                                            <button id="submit3" type="submit" class="btn btn-secondary ml-4">Choisir</button>
+                                        <div class="form-group d-lg-flex justify-content-center">
+                                            <input class="form-control col-md-4" type="number" name="response" id="inputCalcul3" placeholder="Votre résultat...">
+                                            <input type="hidden" name="calcul" id="hidden3">
+                                            <button id="submit3" type="submit" class="btn btn-secondary ml-4">Répondre</button>
                                         </div>
                                     </td>
                                 </tr>
+                            </form>
+                            <form class="forms" action="">
                                 <tr class="text-center text-white">
                                     <td id="calcul4"></td>
                                     <td class="w-50">
-                                        <div class="form-group d-flex justify-content-center">
-                                            <input class="form-control col-md-4" type="number" name="calcul4" id="inputCalcul4" placeholder="Votre résultat...">
-                                            <input type="hidden" name="calcul4" id="hidden4">
-                                            <button id="submit4" type="submit" class="btn btn-secondary ml-4">Choisir</button>
+                                        <div class="form-group d-lg-flex justify-content-center">
+                                            <input class="form-control col-md-4" type="number" name="response" id="inputCalcul4" placeholder="Votre résultat...">
+                                            <input type="hidden" name="calcul" id="hidden4">
+                                            <button id="submit4" type="submit" class="btn btn-secondary ml-4">Répondre</button>
                                         </div>
                                     </td>
                                 </tr>
+                            </form>
+                            <form class="forms" action="">
                                 <tr class="text-center text-white">
                                     <td id="calcul5"></td>
                                     <td class="w-50">
-                                        <div class="form-group d-flex justify-content-center">
-                                            <input class="form-control col-md-4" type="number" name="calcul5" id="inputCalcul5" placeholder="Votre résultat...">
-                                            <input type="hidden" name="calcul5" id="hidden5">
-                                            <button id="submit5" type="submit" class="btn btn-secondary ml-4">Choisir</button>
+                                        <div class="form-group d-lg-flex justify-content-center">
+                                            <input class="form-control col-md-4" type="number" name="response" id="inputCalcul5" placeholder="Votre résultat...">
+                                            <input type="hidden" name="calcul" id="hidden5">
+                                            <button id="submit5" type="submit" class="btn btn-secondary ml-4">Répondre</button>
                                         </div>
                                     </td>
                                 </tr>
@@ -108,13 +116,18 @@
                         </table>
                     </div>
                     <div id="tableDiv" class="col-12">
+                        <table id="responseTest" class="table">
 
+                        </table>
                     </div>
+                    <form id="formRetry" action="">
+                        <button id="retryBtn" type="submit" class="offset-4 offset-md-5 col-4 col-md-2 btn btn-secondary m-bot">Réessayer</button>
+                    </form>
                 </div>
             </div>
         </main>
-        <footer>
-            <span class="d-flex justify-content-center align-items-center">Apprenez vos table rapidement et facilement !</span>
+        <footer class="d-flex align-items-center">
+            <p class="d-flex justify-content-center">Apprenez vos table rapidement et facilement !</p>
         </footer>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
                 integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
