@@ -58,6 +58,10 @@ footer p {
     width: 100%;
 }
 
+#tableDiv {
+    display: none;
+}
+
 /** Fonts **/
 
 @font-face {

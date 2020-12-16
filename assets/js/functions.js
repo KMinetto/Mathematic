@@ -73,6 +73,23 @@ export function createHead(th1String, th2String) {
 
 }
 
+export function createBody(td1String, td2String) {
+    const tbody = document.createElement('tbody');
+    const trBody = document.createElement('tr');
+    const td1 = document.createElement('td');
+    const td2 = document.createElement('td');
+    td1.setAttribute("class", "text-center text-white");
+    td2.setAttribute("class", "text-center text-white");
+    td1.innerHTML = td1String;
+    td2.innerHTML = td2String;
+    trBody.appendChild(td1);
+    trBody.appendChild(td2);
+    tbody.appendChild(trBody);
+
+    return tbody;
+
+}
+
 export function tableTestHead(th1, th2, th3) {
     const thead = document.createElement('thead');
     const trh = document.createElement('tr');
