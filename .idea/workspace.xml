@@ -27,13 +27,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b9efc37-6387-4ad5-85dc-d2f8930a5e91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/php/responseConnaissances.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/js/connaissances.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/connaissances.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/tests.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/tests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/php/connaissances.php" beforeDir="false" afterPath="$PROJECT_DIR$/assets/php/connaissances.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/connaissances.html" beforeDir="false" afterPath="$PROJECT_DIR$/connaissances.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/tests.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +62,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="connaissances" />
-                    <option name="lastUsedInstant" value="1608192300" />
+                    <option name="branchName" value="changes" />
+                    <option name="lastUsedInstant" value="1608215671" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />

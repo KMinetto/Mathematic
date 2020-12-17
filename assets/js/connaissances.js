@@ -1,12 +1,12 @@
 /** Imports **/
 
-import {getRandomInt, tableTestBody, tableTestHead} from "./functions";
+import {getRandomInt, tableTestBody, tableTestHead} from "./functions.js";
 
 /** Récupération des Tags HTML **/
 
 const select = document.getElementById('tableSelector');
 const formSelect = document.getElementById('selector');
-const tableDiv = document.getElementById('tableDiv');
+const tableDiv = document.getElementById('tableDiv1');
 
 const table = document.getElementById('testTable')
 const forms = document.getElementsByClassName('forms');
