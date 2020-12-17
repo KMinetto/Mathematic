@@ -17,7 +17,6 @@ let hidden4 = document.getElementById('hidden4');
 let hidden5 = document.getElementById('hidden5');
 
 const table = document.getElementById('responseTest');
-const tableDiv = document.getElementById('tableDiv');
 
 const forms = document.getElementsByClassName('forms');
 
