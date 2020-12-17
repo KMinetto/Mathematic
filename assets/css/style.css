@@ -17,6 +17,10 @@ main {
     min-height: calc(100vh - 56px - 60px);
 }
 
+table {
+    width: 100%;
+}
+
 form td {
     vertical-align: center;
 }
