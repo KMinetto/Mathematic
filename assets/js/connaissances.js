@@ -1,6 +1,6 @@
 /** Imports **/
 
-import {getRandomInt, tableTestBody, tableTestHead} from "./functions.js";
+import { getRandomInt, tableTestBody, tableTestHead } from "./functions.js";
 
 /** Récupération des Tags HTML **/
 
@@ -26,18 +26,6 @@ const hidden4 = document.getElementById('hidden4');
 const hidden5 = document.getElementById('hidden5');
 
 /** Algorithme **/
-
-/** Connaissances.html **/
-
-let value;
-for (let i = 1; i <= 10; i++) {
-    value = i;
-    const label = `Table de ${i}`;
-
-    select.insertAdjacentHTML('beforeend',
-        `<option value="${value}">${label}</option>`
-    );
-}
 
 const arrayCalc = [];
 const arrayHidden = [];
@@ -105,4 +93,16 @@ for (let i = 0; i < forms.length; i++) {
                 responseTable.appendChild(tableTestBody(data.response, verify, data.calcul));
             })
     })
+}
+
+/** Connaissances.html **/
+
+let value;
+for (let i = 1; i <= 10; i++) {
+    value = i;
+    const label = `Table de ${i}`;
+
+    select.insertAdjacentHTML('beforeend',
+        `<option value="${value}">${label}</option>`
+    );
 }

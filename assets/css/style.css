@@ -1,5 +1,9 @@
 /** Style **/
 
+* {
+    outline: none;
+}
+
 body {
     background-image: url("../images/tableau-vide.jpg");
     background-repeat: no-repeat;

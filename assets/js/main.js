@@ -11,12 +11,7 @@ const tbody = document.querySelector('tbody');
 let min = 1;
 let max = 10;
 
-/** Functions **/
-
 const n = getRandomInt();
-
-/** Algorithme **/
-
 
 /** index.html **/
 for (let i = min; i <= max; i++) {
