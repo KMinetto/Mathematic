@@ -11,16 +11,6 @@ const tbody = document.querySelector('tbody');
 
 /** Algorithme **/
 
-/** revision.html **/
-for (let i = 1; i <= 10; i++) {
-    const value = i;
-    const label = `table de ${i}`;
-
-    select.insertAdjacentHTML('beforeend',
-        `<option value="${value}">${label}</option>`
-    );
-}
-
 form.addEventListener('submit', (e) => {
     e.preventDefault();
 
@@ -40,4 +30,14 @@ form.addEventListener('submit', (e) => {
         })
         .catch(err => console.error(err));
 });
+
+/** revision.html **/
+for (let i = 1; i <= 10; i++) {
+    const value = i;
+    const label = `table de ${i}`;
+
+    select.insertAdjacentHTML('beforeend',
+        `<option value="${value}">${label}</option>`
+    );
+}
 

@@ -1,6 +1,6 @@
 /** Import **/
 
-import {getRandomInt, tableTestHead, tableTestBody} from "./functions.js";
+import { getRandomInt, tableTestHead, tableTestBody } from "./functions.js";
 
 /** Récupération des Tags HTML **/
 
