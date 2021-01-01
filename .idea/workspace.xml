@@ -27,9 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b9efc37-6387-4ad5-85dc-d2f8930a5e91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/images/Favicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/tests.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +61,11 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="changes" />
-                    <option name="lastUsedInstant" value="1608278475" />
+                    <option name="lastUsedInstant" value="1609542188" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1606517612" />
+                    <option name="lastUsedInstant" value="1608286896" />
                   </RecentBranch>
                 </list>
               </option>
@@ -105,12 +104,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\acs\Desktop\Test\PHP\Mathematic" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\Mathematic2\assets\js" />
       <recent name="C:\Users\acs\Desktop\Test\PHP\Mathematic\assets\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Mathematic\assets\images" />
+      <recent name="C:\Users\acs\Desktop\Test\PHP\Mathematic" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -131,6 +131,7 @@
       <workItem from="1608106517516" duration="10944000" />
       <workItem from="1608191665055" duration="15478000" />
       <workItem from="1608278425705" duration="6169000" />
+      <workItem from="1609541106930" duration="659000" />
     </task>
     <servers />
   </component>
